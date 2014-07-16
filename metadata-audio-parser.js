@@ -145,7 +145,8 @@ function parse_audio_metadata (blob, metadataCallback, errorCallback) {
 		'mp4a' : true, // MPEG-4 audio
 		'samr' : true, // AMR narrow-band speech
 		'sawb' : true, // AMR wide-band speech
-		'sawp' : true  // Extended AMR wide-band audio
+		'sawp' : true,  // Extended AMR wide-band audio
+		'alac' : true
 	};
 
 	// Start off with some default metadata
